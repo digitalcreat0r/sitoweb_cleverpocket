@@ -77,6 +77,29 @@
     top: 70px;
 }
 
+@media (max-width: 600px) {
+    .theme-switch-btn {
+        top: 85px;
+        right: 15px;
+        width: 40px;
+        height: 40px;
+        font-size: 1.05rem;
+    }
+
+    .theme-switch-btn.scrolled {
+        top: 15px;
+        right: 15px;
+    }
+
+    .maintenance-on .theme-switch-btn {
+        top: 125px;
+    }
+
+    .maintenance-on .theme-switch-btn.scrolled {
+        top: 55px;
+    }
+}
+
 /* Back Link for documents */
 .back-link {
     margin-bottom: 35px;
