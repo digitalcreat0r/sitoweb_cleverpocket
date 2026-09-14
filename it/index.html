@@ -7,6 +7,14 @@ lang: it
 {% assign t = site.data[lang] %}
 
 <header>
+    {% if t.hero_badge %}
+    <div>
+        <span class="dev-badge">
+            <span class="badge-dot"></span>
+            {{ t.hero_badge }}
+        </span>
+    </div>
+    {% endif %}
     <div class="profile-img">
         <img src="{{ '/assets/images/fp.jpg' | relative_url }}" alt="Photo Profilo">
     </div>
@@ -19,8 +27,8 @@ lang: it
 </header>
 
 <section id="share-idea">
-    <h1><i class="fa-regular fa-lightbulb"></i> {{ t.idea_title }}</h1>
-    <p>{{ t.idea_desc }}</p>
+    <h2><i class="fa-regular fa-lightbulb"></i> {{ t.idea_title }}</h2>
+    <p class="idea-description">{{ t.idea_desc }}</p>
 
     <form id="idea-form" onsubmit="sendIdeaEmail(event)">
         <div class="form-group">
@@ -42,10 +50,10 @@ lang: it
             {{ t.btn_continue }} <i class="fa-solid fa-paper-plane"></i>
         </button>
 
-        <p id="ideaErrorMsg" style="color: var(--primary-color); font-size: 0.85em; display: none; margin-top: 15px; text-align: center;">
+        <div id="ideaErrorMsg" class="error-alert">
             <i class="fa-solid fa-triangle-exclamation"></i>
             <span id="ideaErrorText"></span>
-        </p>
+        </div>
     </form>
 </section>
 
@@ -62,14 +70,14 @@ lang: it
         // 1. Controllo se il campo dell'idea è vuoto
         if (idea === "") {
             errorText.innerHTML = "{{ t.error_empty_idea }}";
-            errorMsg.style.display = 'block';
+            errorMsg.style.display = 'flex';
             return;
         }
 
         // 2. Controllo se la checkbox è spuntata
         if (!termsCheckbox.checked) {
             errorText.innerHTML = "{{ t.error_idea_terms }}";
-            errorMsg.style.display = 'block';
+            errorMsg.style.display = 'flex';
             return;
         }
 

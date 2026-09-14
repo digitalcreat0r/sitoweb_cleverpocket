@@ -1,20 +1,37 @@
-* { box-sizing: border-box; }
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::selection {
+    background: rgba(var(--primary-color-rgb), 0.25);
+    color: var(--text-main);
+}
 
 body {
-    font-family: 'Inter', sans-serif;
-    font-size: 1.1rem;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 1.05rem;
     background-color: var(--bg-color);
+    background-image: var(--bg-gradient);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     color: var(--text-main);
-    line-height: 1.6;
+    line-height: 1.65;
     margin: 0;
     padding: 0;
-    transition: background-color 0.3s, color 0.3s;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    min-height: 100vh;
 }
 
 .container {
-    max-width: 900px;
+    max-width: 860px;
     margin: 0 auto;
-    padding: 40px 20px 0;
+    padding: 20px 24px 0;
 }
 
 body.always-light .container {
@@ -32,14 +49,22 @@ body.always-light h2 {
     justify-content: flex-start;
     text-align: left;
     margin-top: 40px;
-    font-size: 1.4rem;
+    font-size: 1.35rem;
 }
 
-section { margin-bottom: 80px; }
+section {
+    margin-bottom: 70px;
+}
+
+h1, h2, h3 {
+    color: var(--text-main);
+    font-weight: 700;
+    letter-spacing: -0.02em;
+}
 
 h1, h2 {
     font-size: 1.8rem;
-    margin-bottom: 30px;
+    margin-bottom: 24px;
     display: flex;
     align-items: center;
     gap: 12px;
@@ -47,18 +72,27 @@ h1, h2 {
     text-align: center;
 }
 
-h1 i, h2 i { color: var(--primary-color); }
+h1 i, h2 i {
+    color: var(--primary-color);
+    filter: drop-shadow(0 0 8px rgba(var(--primary-color-rgb), 0.35));
+}
 
 /* Maintenance Banner */
 .maintenance-banner {
-    background: #f59e0b;
-    color: white;
+    background: linear-gradient(135deg, #f59e0b, #d97706);
+    color: #ffffff;
     text-align: center;
-    padding: 10px;
-    font-weight: bold;
+    padding: 12px 20px;
+    font-weight: 600;
+    font-size: 0.95rem;
     position: sticky;
     top: 0;
     z-index: 1001;
+    box-shadow: 0 4px 12px rgba(245, 158, 11, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
 }
 
 body.always-light .maintenance-banner {
@@ -67,8 +101,25 @@ body.always-light .maintenance-banner {
 
 /* Mobile Responsive */
 @media (max-width: 600px) {
-    h1 { font-size: 1.7rem; }
-    h2 { display: block; text-align: center; font-size: 1.4rem; }
-    h2 i { margin-right: 10px; vertical-align: middle; }
-    ul, ol { padding-left: 1rem; }
+    body {
+        font-size: 1rem;
+    }
+    .container {
+        padding: 15px 18px 0;
+    }
+    h1 {
+        font-size: 1.6rem;
+    }
+    h2 {
+        display: block;
+        text-align: center;
+        font-size: 1.3rem;
+    }
+    h2 i {
+        margin-right: 8px;
+        vertical-align: middle;
+    }
+    ul, ol {
+        padding-left: 1.2rem;
+    }
 }

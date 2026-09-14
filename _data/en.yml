@@ -11,8 +11,10 @@ back_to_app: "Back to App"
 privacy_policy: "Privacy Policy"
 terms_of_service: "Terms of Service"
 btn_continue: "Continue"
+footer_disclaimer: "Shopify is a trademark of Shopify Inc. CleverPocket Dev is an independent developer and is not affiliated with or endorsed by Shopify Inc."
 
 # Home Page (index.html)
+hero_badge: "Shopify App Developer"
 greeting: "Hi, I'm Oleksandr"
 about_subtitle: "I create specialized Shopify apps to help merchants automate tasks, boost conversions, and grow their stores."
 
