@@ -3,22 +3,12 @@
     align-items: center;
     justify-content: center;
     padding: 18px 0;
-    position: sticky;
-    top: 0;
     z-index: 1000;
-    background-color: rgba(11, 15, 25, 0.75);
-    backdrop-filter: blur(16px);
-    -webkit-backdrop-filter: blur(16px);
-    border-bottom: 1px solid var(--border-color);
+    background-color: transparent;
     transition: all 0.3s ease;
 }
 
-body.light-mode .site-nav {
-    background-color: rgba(246, 248, 250, 0.85);
-}
-
 body.always-light .site-nav {
-    background-color: rgba(246, 248, 250, 0.95);
     border-bottom: 1px solid var(--border-color);
 }
 
