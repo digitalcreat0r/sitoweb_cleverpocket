@@ -2,7 +2,6 @@
     <div class="footer-links">
         {% capture lang_prefix %}{% if page.lang == 'it' %}/it{% else %}{% endif %}{% endcapture %}
         <a href="{{ site.baseurl }}{{ lang_prefix }}/">{{ t.nav_home }}</a>
-        <a href="{{ site.baseurl }}{{ lang_prefix }}/#apps">{{ t.nav_apps }}</a>
         <a href="{{ site.baseurl }}{{ lang_prefix }}/terms-of-use.html">{{ t.nav_terms }}</a>
         <a href="{{ site.baseurl }}{{ lang_prefix }}/privacy-policy.html">{{ t.nav_privacy }}</a>
         <a href="{{ site.baseurl }}{{ lang_prefix }}/cookie-policy.html">{{ t.nav_cookie }}</a>

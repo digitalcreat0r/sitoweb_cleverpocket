@@ -1,6 +1,6 @@
 ---
 layout: default
-title: App Mobile & Beta Testing
+title: Sviluppo App Shopify
 lang: it
 ---
 {% assign lang = page.lang | default: "en" %}
@@ -18,34 +18,6 @@ lang: it
     </p>
 </header>
 
-<section id="apps">
-    <h1><i class="fa-solid fa-rocket"></i> {{ t.my_apps }}</h1>
-    <div class="apps-grid">
-
-        {% assign apps_it = site.apps | where: "lang", "it" %}
-        {% for app in apps_it %}
-        <article class="app-card">
-            <div class="app-card-header">
-                <img src="{{ app.icon | relative_url }}" alt="{{ app.title }} Icon" class="app-card-icon">
-                <h3>{{ app.title }}</h3>
-            </div>
-            <p class="app-description">
-                {{ app.description }}
-            </p>
-            <a href="{{ app.url | relative_url }}" class="btn-main">
-                {{ t.learn_more }} <i class="fa-solid fa-arrow-right"></i>
-            </a>
-        </article>
-        {% endfor %}
-
-        <article class="app-card placeholder">
-            <div class="app-icon"><i class="fa-solid fa-plus"></i></div>
-            <h3>{{ t.coming_soon }}</h3>
-            <p>{{ t.next_project }}</p>
-        </article>
-    </div>
-</section>
-
 <section id="share-idea">
     <h1><i class="fa-regular fa-lightbulb"></i> {{ t.idea_title }}</h1>
     <p>{{ t.idea_desc }}</p>
@@ -62,7 +34,7 @@ lang: it
             <input type="checkbox" id="idea-terms">
             <label for="idea-terms">
                 {{ t.agree_to }}
-                <a href="{{ '/it/terms-of-use#user-feedback' | relative_url }}" target="_blank">{{ t.idea_terms }}</a>
+                <a href="{{ '/it/terms-of-use.html#user-feedback' | relative_url }}" target="_blank">{{ t.idea_terms }}</a>
             </label>
         </div>
 

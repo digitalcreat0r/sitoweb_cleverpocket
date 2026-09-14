@@ -17,7 +17,7 @@ Questo sito web è progettato nel pieno rispetto della privacy. Lo sviluppatore 
 
 Le uniche tecnologie di archiviazione attualmente utilizzate sono strettamente necessarie per le funzionalità essenziali del sito web e per l'esperienza dell'utente:
 - **Preferenza del Tema (Archiviazione Locale):** Lo sviluppatore utilizza l'archiviazione locale del browser (`localStorage`) per ricordare la preferenza di visualizzazione dell'utente (Modalità Chiara o Modalità Scura) tra una sessione e l'altra. Questi dati non vengono trasmessi a nessun server e rimangono esclusivamente sul dispositivo dell'utente.
-- **Cookie di Sessione e di Sicurezza:** Se l'utente interagisce con i moduli di contatto sicuri o con i sistemi di candidatura per i programmi di beta testing, il gestore sicuro del modulo potrebbe generare cookie di sessione minimi per prevenire lo spam, garantire la sicurezza e mantenere una sessione sicura.
+- **Cookie di Sessione e di Sicurezza:** Se l'utente interagisce con i moduli di contatto, potrebbero essere generati cookie di sessione minimi per prevenire lo spam, garantire la sicurezza e mantenere una sessione sicura.
 
 ## 3. Cookie di Terze Parti
 Lo sviluppatore attualmente non utilizza strumenti di analisi o di tracciamento di terze parti su questo sito web. Qualora in futuro venissero implementati tali strumenti, la presente informativa verrà aggiornata e, ove richiesto dalla legge, verrà richiesto il consenso esplicito dell'utente prima di installare qualsiasi cookie non essenziale sul suo dispositivo.
