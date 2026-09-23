@@ -3,50 +3,55 @@ layout: document
 title: Informativa sulla Privacy
 lang: it
 ---
-# Informativa sulla Privacy - CleverPocket Dev
+# Informativa sulla Privacy - {{ site.brand }}
 
-*Ultimo aggiornamento: 4 Maggio 2026*
+*Ultimo aggiornamento: 14 settembre 2026*
 
-Benvenuto in **CleverPocket Dev**. Rispettiamo la tua privacy e ci impegniamo a proteggere i tuoi dati personali. Questa Informativa sulla Privacy spiega come raccogliamo, utilizziamo e salvaguardiamo le tue informazioni quando visiti il nostro sito web, ti candidi per diventare un beta tester o ci contatti per feedback e nuove idee.
+Benvenuto su **{{ site.brand }}**. La presente Informativa sulla Privacy è rilasciata da **{{ site.author }}** ("lo sviluppatore") e spiega come vengono raccolti, utilizzati e protetti i dati personali dell'utente quando visita questo sito web o si mette in contatto per condividere feedback, richieste di supporto e nuove idee. La privacy dell'utente è una priorità e lo sviluppatore si impegna a proteggere i suoi dati personali.
 
-*(Nota: Questa informativa si applica esclusivamente alle interazioni sul nostro sito web. Le nostre singole applicazioni mobili hanno le proprie informative sulla privacy specifiche, accessibili all'interno di ogni app e sulle rispettive pagine degli app store).*
+*(Nota: La presente informativa si applica alle interazioni su questo sito web. Le singole applicazioni Shopify pubblicate dallo sviluppatore dispongono di specifiche informative sulla privacy dedicate, consultabili all'interno dell'app e sulla pagina ufficiale del Shopify App Store).*
 
-## 1. Informazioni che Raccogliamo
-Raccogliamo solo le informazioni che ci fornisci volontariamente quando interagisci con il nostro sito web:
-- **Informazioni di Contatto:** Quando ci contatti tramite i nostri moduli per condividere idee, segnalare bug o richiedere supporto, raccogliamo il tuo nome, l'indirizzo email e il contenuto del messaggio.
-- **Candidature per Tester:** Se ti candidi per diventare un beta tester per le nostre applicazioni attuali o future, potremmo raccogliere il tuo nome, l'indirizzo email, l'email associata a Google Play (per l'accesso al test), il tipo di dispositivo e ogni altra informazione necessaria per gestire il programma di testing.
+## 1. Titolare del Trattamento dei Dati
+Il titolare del trattamento dei dati per questo sito web e per i relativi servizi è:
 
-## 2. Come Utilizziamo le tue Informazioni
-Utilizziamo le informazioni raccolte esclusivamente per i seguenti scopi:
-- Per rispondere alle tue richieste, domande o feedback.
-- Per gestire e coordinare i nostri programmi di beta testing (ad esempio, aggiungerti ai canali di test di Google Play, inviarti istruzioni e raccogliere segnalazioni di bug).
-- Per valutare i tuoi suggerimenti per nuove funzionalità o applicazioni.
-- Per inviarti aggiornamenti importanti riguardanti le app che stai testando o supportando.
+**{{ site.author }} ({{ site.brand }})**
 
-*Non venderemo, affitteremo o scambieremo mai i tuoi dati personali con terze parti per scopi di marketing.*
+Email: {{ site.email }}<br>
+Sito web: {{ site.url }}
 
-## 3. Cookie e Monitoraggio
-Il nostro sito web utilizza cookie minimi, strettamente necessari per le sue funzionalità principali (come l'invio sicuro di un modulo di contatto o la gestione delle sessioni utente). Non utilizziamo cookie di tracciamento invasivi né vendiamo i tuoi dati di navigazione. Se in futuro implementeremo strumenti di analisi di terze parti per comprendere il traffico del sito, aggiorneremo questa informativa e richiederemo il tuo consenso dove richiesto dalla legge.
+## 2. Dati Raccolti
+Lo sviluppatore raccoglie esclusivamente le informazioni fornite volontariamente dall'utente durante l'interazione con il sito web:
+- **Dati di Contatto e Feedback:** Quando l'utente ci contatta tramite moduli o email per condividere idee, segnalare problemi o richiedere assistenza, lo sviluppatore raccoglie il nome (se indicato), l'indirizzo email e il contenuto del messaggio.
 
-## 4. Condivisione dei Dati e Servizi di Terze Parti
-Potremmo condividere i tuoi dati con fornitori di servizi di terze parti fidati solo nella misura necessaria per svolgere le nostre attività (ad esempio, fornitori di hosting email o processori di moduli sicuri). Questi fornitori sono vincolati da rigorosi accordi di riservatezza e non sono autorizzati a utilizzare i tuoi dati per i propri scopi.
+## 3. Come Vengono Utilizzate le Informazioni
+Lo sviluppatore utilizza le informazioni raccolte esclusivamente per le seguenti finalità:
+- Rispondere a richieste, domande o richieste di assistenza dell'utente.
+- Valutare i suggerimenti dell'utente per nuove funzionalità o applicazioni Shopify.
+- Inviare risposte pertinenti in merito alle idee o richieste inoltrate.
 
-## 5. Conservazione dei Dati
-Conserviamo le tue informazioni personali solo per il tempo necessario:
-- **Richieste Generali:** Fino a quando la tua domanda o il tuo feedback non saranno stati adeguatamente gestiti.
-- **Beta Tester:** Per la durata del periodo di test e per un periodo ragionevole successivo per gestire i premi a vita o future opportunità di test, a meno che tu non richieda di essere rimosso dalla nostra lista di tester.
+*Lo sviluppatore non venderà, noleggerà né scambierà in alcun modo i dati personali dell'utente con terze parti per scopi di marketing.*
 
-## 6. I Tuoi Diritti (GDPR)
-In base alla tua posizione, hai diritti specifici riguardo ai tuoi dati personali. Hai il diritto di:
-- Richiedere l'accesso ai dati personali che conserviamo su di te.
-- Richiedere la correzione di eventuali dati inaccurati o incompleti.
-- Richiedere la cancellazione dei tuoi dati personali ("Diritto all'oblio").
-- Revocare il tuo consenso in qualsiasi momento se non desideri più essere un beta tester o ricevere comunicazioni da parte nostra.
+## 4. Cookie e Tracciamento
+Questo sito web utilizza cookie minimi e strettamente necessari al suo funzionamento principale. Lo sviluppatore non utilizza cookie di tracciamento invasivi né vende i dati di navigazione dell'utente.
 
-Per esercitare uno di questi diritti, inviaci semplicemente un'email.
+## 5. Condivisione dei Dati e Servizi di Terze Parti
+Lo sviluppatore può condividere i dati dell'utente con fornitori di servizi terzi di fiducia esclusivamente nella misura necessaria allo svolgimento delle attività operative (ad esempio, fornitori di hosting email). Tali fornitori sono vincolati da severi accordi di riservatezza e non sono autorizzati a utilizzare i dati dell'utente per scopi propri.
 
-## 7. Modifiche a Questa Informativa
-Potremmo aggiornare questa Informativa sulla Privacy di tanto in tanto. Qualsiasi modifica sarà pubblicata su questa pagina con una data di "Ultimo aggiornamento" aggiornata. Ti invitiamo a consultare periodicamente questa informativa.
+## 6. Conservazione dei Dati
+Lo sviluppatore conserva le informazioni personali dell'utente solo per il tempo strettamente necessario a gestire adeguatamente la domanda o il feedback, o come richiesto dalle normative vigenti.
 
-## 8. Contattaci
-Se hai domande su questa Informativa sulla Privacy o su come gestiamo i tuoi dati, contattaci all'indirizzo: **{{ site.email }}**
+## 7. Diritti dell'Utente (GDPR e CCPA)
+In base alla propria posizione geografica, l'utente gode di diritti specifici riguardo ai propri dati personali. L'utente ha il diritto di:
+- Richiedere l'accesso ai dati personali conservati che lo riguardano.
+- Richiedere la rettifica di dati inesatti o incompleti.
+- Richiedere la cancellazione dei propri dati personali ("Diritto all'oblio").
+- Revocare il proprio consenso in qualsiasi momento.
+
+Per esercitare uno qualsiasi di questi diritti, è sufficiente inviare un'email allo sviluppatore.
+
+## 8. Modifiche alla Presente Informativa
+Lo sviluppatore si riserva il diritto di aggiornare periodicamente la presente Informativa sulla Privacy. Qualsiasi modifica sarà pubblicata su questa pagina con la data di "Ultimo aggiornamento" modificata. Si invita l'utente a rivedere periodicamente la presente informativa.
+
+## 9. Contatti
+Per qualsiasi domanda sulla presente Informativa sulla Privacy o sul trattamento dei propri dati, è possibile contattare lo sviluppatore all'indirizzo:<br>
+**{{ site.email }}**

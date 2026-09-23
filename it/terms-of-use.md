@@ -3,50 +3,41 @@ layout: document
 title: Termini di Utilizzo
 lang: it
 ---
-# Termini di Utilizzo - CleverPocket Dev
+# Termini di Utilizzo - {{ site.brand }}
 
-*Ultimo aggiornamento: 4 Maggio 2026*
+*Ultimo aggiornamento: 14 settembre 2026*
 
-Utilizzando il sito web, le applicazioni e i servizi forniti da **CleverPocket Dev** (lo "Sviluppatore"), l'utente accetta i seguenti termini. Si prega di leggerli attentamente.
+L'utilizzo del sito web, delle applicazioni e dei servizi forniti da **{{ site.brand }}**, sviluppati e gestiti da **{{ site.author }}** ("lo sviluppatore"), comporta l'accettazione dei seguenti termini. Si prega di leggerli attentamente.
 
-## 1. Accettazione dei Termini
-Accedendo al sito web o scaricando e utilizzando le applicazioni mobili, incluso **ScreenRest**, si accetta di essere vincolati dai presenti Termini di Utilizzo e dall'Informativa sulla Privacy.
+*(Nota: I presenti termini si applicano all'uso di questo sito web e ai servizi generali. Le singole applicazioni Shopify pubblicate dallo sviluppatore possono essere soggette a specifici termini di utilizzo dedicati e a informative sulla privacy specifiche).*
 
-## 2. Licenza e Utilizzo
-Viene concessa una licenza personale, non trasferibile e non esclusiva per utilizzare il sito web e le applicazioni per scopi personali e non commerciali. L'utente accetta di non:
-- Modificare, copiare o decodificare il software o i contenuti del sito web.
-- Utilizzare il sito o le applicazioni per qualsiasi attività illegale.
+## 1. Accettazione dei Termini e Requisiti di Idoneità
+Accedendo al sito web o installando e utilizzando le applicazioni e i servizi forniti dallo sviluppatore, l'utente accetta di essere vincolato dai presenti Termini di Utilizzo e dall'Informativa sulla Privacy del sito.
 
-<h2 id="testing-program">3. Programma di Testing</h2>
-Partecipando al programma di testing, si accettano i seguenti termini specifici:
+L'utente dichiara di avere la capacità giuridica per stipulare un contratto vincolante o di avere l'autorizzazione necessaria per rappresentare la propria attività/negozio nell'utilizzo di tali servizi.
 
-- **Natura del Software:**<br>L'utente riconosce che il software si trova in una fase di test e potrebbe presentare bug o instabilità nelle prestazioni. Trattandosi di una versione preliminare, i dati o le impostazioni relativi esclusivamente all'uso dell'applicazione (come preferenze, statistiche o progressi) potrebbero essere resettati o andare perduti durante gli aggiornamenti o nel passaggio alla versione finale.
-- **Periodo di Testing:**<br>In conformità con i requisiti di Google, il periodo di test obbligatorio di 14 giorni inizia solo una volta raggiunto e attivo il numero minimo di tester richiesti. Gli utenti che si uniscono prima di questo traguardo potrebbero dover rimanere nel programma per più di 14 giorni.
-- **Idoneità alla Ricompensa:**<br>La ricezione di premi (come l'accesso "Lifetime") è soggetta al completamento con successo della fase di test e alla successiva pubblicazione ufficiale dell'applicazione. Lo Sviluppatore non garantisce che l'applicazione sarà approvata o pubblicata da Google.
-- **Partecipazione Volontaria e Ritiro:**<br>La partecipazione è interamente volontaria ed è possibile ritirarsi in qualsiasi momento. Tuttavia, il ritiro anticipato o la mancata permanenza come "tester attivo" per la durata richiesta comporterà la perdita di qualsiasi idoneità ai premi.
-- **Raccolta Dati e Scopo:**<br>Per partecipare al programma, l'utente accetta di fornire il proprio indirizzo email (nello specifico, l'indirizzo associato al proprio account Google Play). Questi dati saranno trattati dallo Sviluppatore esclusivamente per:
-  - Fornire l'accesso tecnico alle versioni di test tramite la Google Play Console.
-  - Inviare comunicazioni strettamente operative riguardanti il test (es. aggiornamenti, segnalazione bug).
-  - Gestire la distribuzione dei premi ottenuti.
+## 2. Licenza d'Uso
+Viene concessa una licenza limitata, non trasferibile e non esclusiva per l'utilizzo del sito web, degli strumenti e delle applicazioni per le finalità previste. L'utente si impegna a non:
+- Modificare, copiare, disassemblare o sottoporre a ingegneria inversa il software o i contenuti del sito web.
+- Utilizzare il sito web o le applicazioni per attività illecite o in violazione dei termini delle piattaforme ospitanti (quali il Shopify Partner Program Agreement o le policy di utilizzo accettabile).
 
-I dati non saranno utilizzati per scopi di marketing né condivisi con terze parti, in conformità con l'Informativa sulla Privacy.
+<h2 id="user-feedback">3. Feedback e Idee dell'Utente</h2>
+I feedback e le idee per nuove funzionalità o applicazioni future sono sempre benvenuti! Tuttavia, per evitare potenziali incomprensioni, qualora vengano inviati commenti, suggerimenti o idee tramite i moduli di contatto del sito o via email, l'utente accetta che:
+- L'invio è del tutto volontario e avviene senza alcuna aspettativa di compenso, presente o futuro.
+- L'utente concede allo sviluppatore una licenza perpetua, irrevocabile, globale e priva di royalty per utilizzare, modificare, implementare e commercializzare tali idee nei prodotti attuali o futuri, senza alcun obbligo di compenso o attribuzione nei confronti dell'utente.
 
-<h2 id="user-feedback">4. Feedback e Idee degli Utenti</h2>
-Feedback e idee per nuove funzionalità o applicazioni future sono sempre benvenuti! Tuttavia, per evitare potenziali incomprensioni, se vengono inviati commenti, suggerimenti o idee tramite i moduli di contatto del sito, email o durante il processo di beta testing, l'utente accetta che:
-- L'invio sia interamente volontario e avvenga senza alcuna aspettativa di compenso, presente o futuro.
-- Viene concessa allo Sviluppatore una licenza perpetua, irrevocabile, mondiale e gratuita per utilizzare, modificare e commercializzare tali idee nei prodotti attuali o futuri senza alcun obbligo o attribuzione.
+## 4. Esclusione di Garanzia
+Il sito web e le applicazioni sono forniti "così come sono" (as is), senza garanzie di alcun tipo. Lo sviluppatore non garantisce che le applicazioni o il sito web soddisfino tutte le specifiche esigenze dell'utente, siano completamente privi di errori o funzionino senza interruzioni.
 
-## 5. Esclusione di Garanzie
-Il sito web e le applicazioni sono forniti "così come sono" senza garanzie di alcun tipo. Lo Sviluppatore non garantisce che le applicazioni o il sito soddisfino le esigenze dell'utente o siano privi di errori.
+## 5. Limitazione di Responsabilità
+In nessun caso lo sviluppatore potrà essere ritenuto responsabile per danni indiretti, incidentali o consequenziali (inclusa la perdita di dati commerciali, profitti o interruzioni del negozio) derivanti dall'uso o dall'impossibilità di utilizzare il sito web o le applicazioni.
 
-## 6. Limitazione di Responsabilità
-In nessun caso lo Sviluppatore sarà responsabile per eventuali danni (inclusa la perdita di impostazioni o dati specifici dell'applicazione) derivanti dall'uso o dall'impossibilità di usare il sito o le applicazioni.
+## 6. Modifiche ai Termini
+Lo sviluppatore si riserva il diritto di modificare i presenti termini in qualsiasi momento. L'uso continuato del sito web o delle applicazioni dopo la pubblicazione delle modifiche costituirà l'accettazione dei nuovi termini.
 
-## 7. Modifiche ai Termini
-Lo Sviluppatore si riserva il diritto di modificare questi termini in qualsiasi momento. L'uso continuato del sito o delle applicazioni dopo la pubblicazione delle modifiche costituisce l'accettazione dei nuovi termini.
+## 7. Legge Applicabile
+I presenti termini sono regolati e interpretati in conformità con le leggi dello Stato Italiano, senza dare effetto a eventuali principi di conflitto di leggi.
 
-## 8. Legge Applicabile
-Questi termini sono regolati e interpretati in conformità con le leggi della giurisdizione dello Sviluppatore.
-
-## 9. Informazioni di Contatto
-In caso di domande su questi termini, è possibile contattare lo Sviluppatore a: **{{ site.email }}**
+## 8. Contatti
+Per qualsiasi domanda relativa ai presenti Termini di Utilizzo, è possibile contattare lo sviluppatore all'indirizzo:<br>
+**{{ site.email }}**

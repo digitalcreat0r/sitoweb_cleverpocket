@@ -8,7 +8,7 @@ body_class: always-light
 <div class="back-link">
   {% if page.back_url %}
   <a href="{{ page.back_url | relative_url }}">
-    <i class="fa-solid fa-arrow-left"></i> {{ page.back_text | default: "Torna all'app" }}
+    <i class="fa-solid fa-arrow-left"></i> {{ page.back_text | default: t.back_to_app | default: "Back" }}
   </a>
   {% else %}
   {% capture home_url %}{% if page.lang == 'it' %}/it/{% else %}/{% endif %}{% endcapture %}
